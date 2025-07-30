@@ -12,7 +12,7 @@ class H2AlimentRepository(AlimentRepository):
     Repository that handles the communication with H2 database.
     '''
 
-    def __init__(self, jar_path="h2-2.2.224.jar"):
+    def __init__(self, jar_path="h2.jar"):
         H2_JAR_PATH = os.environ.get("H2_JAR_PATH", "/app/lib/h2.jar")
         logger.debug(f'H2_JAR_PATH:{H2_JAR_PATH}')
         if not jpype.isJVMStarted():
