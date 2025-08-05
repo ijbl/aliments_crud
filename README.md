@@ -85,6 +85,9 @@ Contiene los controllers que responden a las acciones de la API.
 La clase ListCreateAlimentView que gestiona el listado y creación de alimentos.
 La clase RetrieveUpdateDeleteAlimentView que gestiona el detalle, actualización y borrado de alimentos.
 
+* api/tests.py
+Contiene los tests de unidad de los controllers.
+
 ***********
 Notas
 ***********
